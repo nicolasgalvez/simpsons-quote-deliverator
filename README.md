@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# ~~Getting Started with Create React App~~ Simpsons Deliverator
+
+Deliverates Simpsons quotes based on the character selected.
+
+## Requirements
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+1. Using [Create React App](https://create-react-app.dev/), create a new React project that utilizes the typescript template
+2. Create an interface that has the following UI elements:
+    1. An select box where you can select the first name of at least 5 different [Simpsons characters](https://en.wikipedia.org/wiki/List_of_The_Simpsons_characters)
+    2. A submit button
+3. Using the [Simpsons quote api](https://thesimpsonsquoteapi.glitch.me/), fetch results using the name from the select box as your character parameter.  Display the quotes below the inputs.
+
+When you're finished:
+
+4. Delete your `node_modules` folder
+5. tar and gzip your project and email it to
 
 ## Available Scripts
 
