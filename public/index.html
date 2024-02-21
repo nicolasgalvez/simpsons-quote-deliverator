@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+            name="description"
+            content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,20 +24,57 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <title>Simpson's Quote Deliverator</title>
+    <noscript>
+        <style>
+            /* "Regressive" enhancement? */
+            .App {
+                opacity: 1 !important
+            }
+        </style>
+    </noscript>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div id="root" >
+    <div class="App" style="opacity: 0">
+        <header class="App-header">
+            <h1>Simpson's Quote Deliverator</h1>
+            <p>
+                This is an app that allows you to select a Simpson's character and get a quote from them.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+                https://thesimpsonsquoteapi.glitch.me/
+            </p>
+            <div><label for="character-select">Select a Character:</label> <select id="character-select"
+                                                                                   aria-label="Simpsons Characters">
+                <option value="">Select a Character</option>
+                <option value="Homer">Homer</option>
+                <option value="Marge">Marge</option>
+                <option value="Bart">Bart</option>
+                <option value="Lisa">Lisa</option>
+                <option value="Maggie">Maggie</option>
+            </select>
+                <button>Get Quotes</button>
+                <div role="region" aria-live="polite">
+                    <div style="margin-bottom: 20px;"><img
+                            src="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939"
+                            alt="Homer Simpson" style="max-height: 200px; direction: rtl;">
+                        <p>Marriage is like a coffin and each kid is another nail.</p>
+                        <p>- Homer Simpson</p></div>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+</body>
 </html>
