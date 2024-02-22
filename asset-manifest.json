@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simpsons-quote-deliverator/static/css/main.332fb1b6.css",
+    "main.js": "/simpsons-quote-deliverator/static/js/main.db888e47.js",
+    "static/js/453.5caafcad.chunk.js": "/simpsons-quote-deliverator/static/js/453.5caafcad.chunk.js",
+    "index.html": "/simpsons-quote-deliverator/index.html",
+    "main.332fb1b6.css.map": "/simpsons-quote-deliverator/static/css/main.332fb1b6.css.map",
+    "main.db888e47.js.map": "/simpsons-quote-deliverator/static/js/main.db888e47.js.map",
+    "453.5caafcad.chunk.js.map": "/simpsons-quote-deliverator/static/js/453.5caafcad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.332fb1b6.css",
+    "static/js/main.db888e47.js"
+  ]
+}
